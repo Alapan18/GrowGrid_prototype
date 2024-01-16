@@ -36,7 +36,7 @@ class LoginScreen extends ConsumerWidget {
                 children: [
                   Center(
                     child: Text(
-                      'Dive into anything ..',
+                      '##JOIN the FUTURE of DEVELOPMENT',
                       style: TextStyle(
                         fontSize: 34,
                         fontWeight: FontWeight.bold,
