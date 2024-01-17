@@ -1,16 +1,15 @@
-# reddit_tutorial
+# Growgrid
 
-A new Flutter project.
+## architechture
+1. Flutter
+2. Firebase
+3. Tensorflow
 
-## Getting Started
+## Description
+Growgrid is an area based development app designed on Flutter, Firebase & Tensorflow. Currently our app covers 4-SDGs - SDG-11, SDG-13, SDG-14 & SDG-15. A common ground in all these above SDGs that is pollution-land pollution,water pollution & air pollution. Our main goal is to let the common people in a particular area decide what's good for them via posting problems in this user-friendly app and sharing each other's thought via means of voting,commenting and rewarding the post of which the posts showcasing the major problems will reach the local development-body like municipality & panchayat for solving ASAP.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Team-details
+1. Alapan Pradhan
+2. Samir Roy
+3. Sayandeep Saha
+4. Sayani Pal
