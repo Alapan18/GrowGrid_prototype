@@ -1,3 +1,8 @@
-0 LAND
-1 AIR
-2 WATER
+0 air pollution
+1 water pollution
+2 land pollution
+3 drainage
+4 deforestation
+5 cable management
+6 snow
+7 traffic

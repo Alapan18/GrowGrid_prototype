@@ -39,40 +39,36 @@ class _AddPostTypeScreenState extends ConsumerState<AddPostTypeScreen> {
   List? output;
   File? banner;
   File? bannerFile;
+  double minimumconfidence = 0.50;
+  double? confidenceValue;
   Uint8List? bannerWebFile;
   List<Community> communities = [];
   Community? selectedCommunity;
 
   @override
-  void dispose() {
+  dispose() async {
     super.dispose();
     titleController.dispose();
     descriptionController.dispose();
     linkController.dispose();
-    Tflite.close();
+    await Tflite.close();
   }
 
   @override
   void initState() {
     super.initState();
+
     loadModel();
   }
 
   loadModel() async {
-    try {
-      await Tflite.loadModel(
-        model: 'assets/model_unquant.tflite',
-        labels: 'assets/labels.txt',
-      );
-    } catch (e) {
-      if (kDebugMode) {
-        print('Error loading the model: $e');
-      }
-      // Handle the error as needed
-    }
+    await Tflite.loadModel(
+      model: 'assets/model_unquant.tflite',
+      labels: 'assets/labels.txt',
+    );
   }
 
-  void detectImage(File image) async {
+  detectImage(File image) async {
     var prediction = await Tflite.runModelOnImage(
       path: image.path,
       numResults: 1,
@@ -84,6 +80,7 @@ class _AddPostTypeScreenState extends ConsumerState<AddPostTypeScreen> {
     setState(() {
       output = prediction;
     });
+    return await output?[0]['confidence'];
   }
 
   void selectBannerImage() async {
@@ -91,32 +88,31 @@ class _AddPostTypeScreenState extends ConsumerState<AddPostTypeScreen> {
 
     if (res != null) {
       banner = File(res.files.first.path!);
-    }
-    detectImage(banner as File);
-    if (kDebugMode) {
-      print(output);
-    }
 
-    if (output != null && res != null) {
-      if (kIsWeb) {
+      try {
+        confidenceValue = await detectImage(banner as File);
+        if (/*confidenceValue != null &&*/ confidenceValue! > minimumconfidence) {
+          setState(() {
+            bannerFile = banner;
+            bannerWebFile = res.files.first.bytes;
+          });
+        } else {
+          setState(() {
+            bannerFile = null;
+            bannerWebFile = null;
+
+            showSnackBar(context,
+                'Selected image is not suitable. Please pick another one.');
+          });
+        }
+      } catch (e) {
         setState(() {
-          bannerWebFile = res.files.first.bytes;
+          bannerFile = null;
+          bannerWebFile = null;
+          showSnackBar(
+              context, 'Error processing the image. Please try again.');
         });
       }
-      setState(() {
-        bannerFile = banner;
-      });
-    } else {
-      setState(() {
-        bannerFile = null;
-        bannerWebFile = null;
-
-        // ignore: use_build_context_synchronously
-        showSnackBar(context,
-            'Selected image is not suitable. Please pick another one.');
-        // ignore: use_build_context_synchronously
-        return;
-      });
     }
   }
 
@@ -238,12 +234,15 @@ class _AddPostTypeScreenState extends ConsumerState<AddPostTypeScreen> {
                         ),
                       ),
                     const SizedBox(height: 30),
-                    if (bannerFile != null) Text(output.toString()),
+                    if (bannerFile != null)
+                      Text(
+                          'Type :  ${output?[0]['label'].toString().substring(2)} problem'),
+                    Text('Confidence :  ${output?[0]['confidence']}'),
                     const SizedBox(height: 30),
                     const Align(
                       alignment: Alignment.topLeft,
-                      child: Text('Select Area -',
-                          style: TextStyle(fontSize: 17)),
+                      child:
+                          Text('Select Area -', style: TextStyle(fontSize: 17)),
                     ),
                     ref.watch(userCommunitiesProvider).when(
                           data: (data) {
