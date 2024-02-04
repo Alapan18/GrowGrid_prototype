@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
 // ignore: unused_import
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/theme/pallete.dart';
 
 class SignInButton extends ConsumerWidget {
   final bool isFromLogin;

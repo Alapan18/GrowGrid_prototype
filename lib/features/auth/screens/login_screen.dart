@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/core/common/sign_in_button.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/responsive/responsive.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/core/common/sign_in_button.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/responsive/responsive.dart';
 
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({Key? key}) : super(key: key);

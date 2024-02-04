@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:reddit_tutorial/features/feed/feed_screen.dart';
+import 'package:growgrid/features/feed/feed_screen.dart';
 // ignore: unused_import
-import 'package:reddit_tutorial/features/home/screens/home_screen.dart';
-import 'package:reddit_tutorial/features/post/screens/add_post_screen.dart';
+import 'package:growgrid/features/home/screens/home_screen.dart';
+import 'package:growgrid/features/post/screens/add_post_screen.dart';
 
 class Constants {
   static const logoPath = 'assets/images/logo.png';

@@ -1,5 +1,5 @@
 import 'package:fpdart/fpdart.dart';
-import 'package:reddit_tutorial/core/failure.dart';
+import 'package:growgrid/core/failure.dart';
 
 typedef FutureEither<T> = Future<Either<Failure, T>>;
 typedef FutureVoid = FutureEither<void>;

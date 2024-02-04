@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/models/comment_model.dart';
-import 'package:reddit_tutorial/responsive/responsive.dart';
+import 'package:growgrid/models/comment_model.dart';
+import 'package:growgrid/responsive/responsive.dart';
 
 class CommentCard extends ConsumerWidget {
   final Comment comment;

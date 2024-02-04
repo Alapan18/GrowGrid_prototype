@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:reddit_tutorial/core/constants/firebase_constants.dart';
+import 'package:growgrid/core/constants/firebase_constants.dart';
 // ignore: unused_import
-import 'package:reddit_tutorial/core/enums/enums.dart';
-import 'package:reddit_tutorial/core/failure.dart';
-import 'package:reddit_tutorial/core/type_defs.dart';
-import 'package:reddit_tutorial/models/post_model.dart';
-import 'package:reddit_tutorial/models/user_model.dart';
+import 'package:growgrid/core/enums/enums.dart';
+import 'package:growgrid/core/failure.dart';
+import 'package:growgrid/core/type_defs.dart';
+import 'package:growgrid/models/post_model.dart';
+import 'package:growgrid/models/user_model.dart';
 
 import '../../../core/providers/firebase_providers.dart';
 

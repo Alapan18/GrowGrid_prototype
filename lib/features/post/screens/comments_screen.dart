@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/core/common/post_card.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/post/controller/post_controller.dart';
-import 'package:reddit_tutorial/features/post/widgets/comment_card.dart';
-import 'package:reddit_tutorial/models/post_model.dart';
-import 'package:reddit_tutorial/responsive/responsive.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/core/common/post_card.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/post/controller/post_controller.dart';
+import 'package:growgrid/features/post/widgets/comment_card.dart';
+import 'package:growgrid/models/post_model.dart';
+import 'package:growgrid/responsive/responsive.dart';
 
 class CommentsScreen extends ConsumerStatefulWidget {
   final String postId;

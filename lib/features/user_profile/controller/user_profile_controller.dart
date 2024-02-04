@@ -3,13 +3,13 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/enums/enums.dart';
-import 'package:reddit_tutorial/core/providers/storage_repository_provider.dart';
-import 'package:reddit_tutorial/core/utils.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/user_profile/repository/user_profile_repository.dart';
-import 'package:reddit_tutorial/models/post_model.dart';
-import 'package:reddit_tutorial/models/user_model.dart';
+import 'package:growgrid/core/enums/enums.dart';
+import 'package:growgrid/core/providers/storage_repository_provider.dart';
+import 'package:growgrid/core/utils.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/user_profile/repository/user_profile_repository.dart';
+import 'package:growgrid/models/post_model.dart';
+import 'package:growgrid/models/user_model.dart';
 import 'package:routemaster/routemaster.dart';
 
 final userProfileControllerProvider = StateNotifierProvider<UserProfileController, bool>((ref) {

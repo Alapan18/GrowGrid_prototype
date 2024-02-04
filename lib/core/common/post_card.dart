@@ -2,15 +2,15 @@ import 'package:any_link_preview/any_link_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/community/controller/community_controller.dart';
-import 'package:reddit_tutorial/features/post/controller/post_controller.dart';
-import 'package:reddit_tutorial/models/post_model.dart';
-import 'package:reddit_tutorial/responsive/responsive.dart';
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/community/controller/community_controller.dart';
+import 'package:growgrid/features/post/controller/post_controller.dart';
+import 'package:growgrid/models/post_model.dart';
+import 'package:growgrid/responsive/responsive.dart';
+import 'package:growgrid/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 class PostCard extends ConsumerWidget {

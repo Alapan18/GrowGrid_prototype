@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/features/community/controller/community_controller.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/features/community/controller/community_controller.dart';
 import 'package:routemaster/routemaster.dart';
 
 class SearchCommunityDelegate extends SearchDelegate {

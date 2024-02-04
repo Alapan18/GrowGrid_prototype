@@ -3,7 +3,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 class AddPostScreen extends ConsumerWidget {

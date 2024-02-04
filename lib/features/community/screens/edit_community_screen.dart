@@ -5,14 +5,14 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/core/utils.dart';
-import 'package:reddit_tutorial/features/community/controller/community_controller.dart';
-import 'package:reddit_tutorial/models/community_model.dart';
-import 'package:reddit_tutorial/responsive/responsive.dart';
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/core/utils.dart';
+import 'package:growgrid/features/community/controller/community_controller.dart';
+import 'package:growgrid/models/community_model.dart';
+import 'package:growgrid/responsive/responsive.dart';
+import 'package:growgrid/theme/pallete.dart';
 
 class EditCommunityScreen extends ConsumerStatefulWidget {
   final String name;

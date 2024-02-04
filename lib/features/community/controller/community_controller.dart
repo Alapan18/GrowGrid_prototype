@@ -4,14 +4,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/core/failure.dart';
-import 'package:reddit_tutorial/core/providers/storage_repository_provider.dart';
-import 'package:reddit_tutorial/core/utils.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/community/repository/communitory_repository.dart';
-import 'package:reddit_tutorial/models/community_model.dart';
-import 'package:reddit_tutorial/models/post_model.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/core/failure.dart';
+import 'package:growgrid/core/providers/storage_repository_provider.dart';
+import 'package:growgrid/core/utils.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/community/repository/communitory_repository.dart';
+import 'package:growgrid/models/community_model.dart';
+import 'package:growgrid/models/post_model.dart';
 import 'package:routemaster/routemaster.dart';
 
 final userCommunitiesProvider = StreamProvider((ref) {

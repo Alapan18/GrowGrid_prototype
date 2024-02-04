@@ -4,12 +4,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/core/constants/firebase_constants.dart';
-import 'package:reddit_tutorial/core/failure.dart';
-import 'package:reddit_tutorial/core/providers/firebase_providers.dart';
-import 'package:reddit_tutorial/core/type_defs.dart';
-import 'package:reddit_tutorial/models/user_model.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/core/constants/firebase_constants.dart';
+import 'package:growgrid/core/failure.dart';
+import 'package:growgrid/core/providers/firebase_providers.dart';
+import 'package:growgrid/core/type_defs.dart';
+import 'package:growgrid/models/user_model.dart';
 
 final authRepositoryProvider = Provider(
   (ref) => AuthRepository(

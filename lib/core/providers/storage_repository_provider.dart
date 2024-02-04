@@ -3,9 +3,9 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:reddit_tutorial/core/failure.dart';
-import 'package:reddit_tutorial/core/providers/firebase_providers.dart';
-import 'package:reddit_tutorial/core/type_defs.dart';
+import 'package:growgrid/core/failure.dart';
+import 'package:growgrid/core/providers/firebase_providers.dart';
+import 'package:growgrid/core/type_defs.dart';
 
 final storageRepositoryProvider = Provider(
   (ref) => StorageRepository(

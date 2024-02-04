@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/core/common/sign_in_button.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/community/controller/community_controller.dart';
-import 'package:reddit_tutorial/models/community_model.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/core/common/sign_in_button.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/community/controller/community_controller.dart';
+import 'package:growgrid/models/community_model.dart';
 import 'package:routemaster/routemaster.dart';
 
 class CommunityListDrawer extends ConsumerWidget {

@@ -8,13 +8,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/common/error_text.dart';
-import 'package:reddit_tutorial/core/common/loader.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/firebase_options.dart';
-import 'package:reddit_tutorial/models/user_model.dart';
-import 'package:reddit_tutorial/router.dart';
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/core/common/error_text.dart';
+import 'package:growgrid/core/common/loader.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/firebase_options.dart';
+import 'package:growgrid/models/user_model.dart';
+import 'package:growgrid/router.dart';
+import 'package:growgrid/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 void main() async {

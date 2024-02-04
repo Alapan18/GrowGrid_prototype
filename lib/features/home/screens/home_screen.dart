@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/constants/constants.dart';
-import 'package:reddit_tutorial/features/auth/controlller/auth_controller.dart';
-import 'package:reddit_tutorial/features/home/delegates/search_community_delegate.dart';
-import 'package:reddit_tutorial/features/home/drawers/community_list_drawer.dart';
-import 'package:reddit_tutorial/features/home/drawers/profile_drawer.dart';
-import 'package:reddit_tutorial/theme/pallete.dart';
+import 'package:growgrid/core/constants/constants.dart';
+import 'package:growgrid/features/auth/controlller/auth_controller.dart';
+import 'package:growgrid/features/home/delegates/search_community_delegate.dart';
+import 'package:growgrid/features/home/drawers/community_list_drawer.dart';
+import 'package:growgrid/features/home/drawers/profile_drawer.dart';
+import 'package:growgrid/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {

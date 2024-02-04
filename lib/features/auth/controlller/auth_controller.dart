@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:reddit_tutorial/core/utils.dart';
-import 'package:reddit_tutorial/features/auth/repository/auth_repository.dart';
-import 'package:reddit_tutorial/models/user_model.dart';
+import 'package:growgrid/core/utils.dart';
+import 'package:growgrid/features/auth/repository/auth_repository.dart';
+import 'package:growgrid/models/user_model.dart';
 
 final userProvider = StateProvider<UserModel?>((ref) => null);
 
