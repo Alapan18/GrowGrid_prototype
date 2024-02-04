@@ -1,4 +1,4 @@
-# <img src="assets\images\logo.png" width="35" height ="35">&ensp;<span style="font-size:1.6em;">Growgrid - Building The Future</span>
+# <img src="assets\images\logo.png" width="35" height ="35">&ensp;<span style="font-size:2em">Growgrid - Building The Future</span>
 
 Responsive Full Stack prototype - Works on Android ! 
 
@@ -51,10 +51,8 @@ Then run the following commands to run your app:
 **AI**: tensorflow and tensorflow lite
 
 
-<img src="https://white.logodownload.org/wp-content/uploads/2020/11/google-white-logo.png" width="140" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-built_knockout.png" width="140" height="50"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://storage.googleapis.com/cms-storage-bucket/a73a8b28b53d8d01cf76.png" width="140" height="50">   
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
-<img src="https://www.quintagroup.com/blog/blog-images/machine-learning-libraries/tensorflow.png/@@images/7a11b0b0-f7b3-4c57-b79b-7ec4e27ff193.png" width="200" height="50"> 
+<img src="https://white.logodownload.org/wp-content/uploads/2020/11/google-white-logo.png" width="140" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-built_knockout.png" width="140" height="50"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://storage.googleapis.com/cms-storage-bucket/a73a8b28b53d8d01cf76.png" width="140" height="50">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.quintagroup.com/blog/blog-images/machine-learning-libraries/tensorflow.png/@@images/7a11b0b0-f7b3-4c57-b79b-7ec4e27ff193.png" width="200" height="50"> 
 
 
 
