@@ -1,4 +1,4 @@
-# <img src="assets\images\logo.png" width="40" height ="40">&ensp;<span style="font-size:1.6em;">Growgrid - Building The Future</span>
+# <img src="assets\images\logo.png" width="35" height ="35">&ensp;<span style="font-size:1.6em;">Growgrid - Building The Future</span>
 
 Responsive Full Stack prototype - Works on Android ! 
 
