@@ -62,9 +62,6 @@ Then run the following commands to run your app:
 ## Team-members and contact details
 1. Alapan Pradhan,  <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" width="16" height="11"> pradhan.alapan.1@gmail.com
 2. Samir Roy,  <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" width="16" height="11">  roysamir929@gmail.com
-3. Sayandeep Saha,  <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" width="16" height="11">  sayandeep123saha@gmail.com
-4. Sayani Pal,  <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" width="16" height="11">  write4sayani@gmail.com
-
 
 
 ## Feedback
